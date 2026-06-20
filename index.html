@@ -2,8 +2,12 @@
 <html>
 <head>
     <title>Sno's Art Compass</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+<button class="toggle-btn" onclick="toggleMode()">Toggle Mode</button>
 
 <h1>Sno's Art Compass</h1>
 
@@ -11,17 +15,23 @@
 
 <ul>
     <li><a href="learning-philosophy.html">Learning Philosophy</a></li>
-    
+
     <li><a href="anatomy.html">Anatomy</a></li>
     <li><a href="composition.html">Composition</a></li>
     <li><a href="colour.html">Colour</a></li>
     <li><a href="backgrounds.html">Backgrounds</a></li>
     <li><a href="mech.html">Mech</a></li>
     <li><a href="animation.html">Animation</a></li>
-    
+
     <li><a href="resources.html">Resources</a></li>
     <li><a href="inspiration.html">Inspiration</a></li>
 </ul>
+
+<script>
+function toggleMode() {
+    document.body.classList.toggle("dark");
+}
+</script>
 
 </body>
 </html>
